@@ -1,0 +1,20 @@
+{
+  "name": "table-tennis-scoring",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "node apps/server/dist/index.js"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "dependencies": {
+    "turbo": "^1.12.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.2"
+  }
+}
